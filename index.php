@@ -5,55 +5,33 @@
 <head>
 <title> Сайт</title>
 <link rel="stylesheet" href="/style.css" type="text/css"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
-
-<div id="welcome" class="post">
-	<div class="title">
-		<h2>Welcome to website by Tyrykin Vsevolod</h2>
-	</div>
-<div id="menu">
-	<ul>
-		<li class="menu"><a href="#" title="">Home</a></li>
-		<li><a name="#" title="">Gallery</a></li>
-		<li><a name="#" title="">About me</a></li>
-		<li><a name="#" title="">Contact</a></li>
-	</ul>
+<div class="ramka">
 </div>
-<div id="sidebar">
-		<div id="login" class="boxed">
-			<div class="title">
+	<div class="header">
+		<div class="menu">
+			<ul>
+				<a href="/" title="">Home</a></li>
+				<li><a href="/galery.php" title="">Gallery</a></li>
+				<li><a href="/" title="">About me</a></li>
+				<li><a href="/" title="">Contact</a></li>
+			</ul>
+		</div>	
+	</div>	
+			<div class="sidebar">
 				<h2>Client Account</h2>
-	<div class="Register">
-		<form id="form1" method="post" action="#">
-			<fieldset>					
 				<label for="email">Client E-mail:</label>
 				<input id="email" type="email" name="email" placeholder="enter your email" value="" />
 				<label for="text">Password:</label>
 				<input id="text" type="password" name="text" placeholder="enter your password" value="" />
-				<input id="submit1" type="submit" name="submit1" value="Sign In" />
-				<p><a href="#">Forgot your password?</a></p>
-			</fieldset>
-		</form>
+				<input type="button" name="submit1"  value="Sign In" />
+				<p><a href="/">Forgot your password?</a></p>						
 			</div>
-		</div>
-	</div>
-</div>	
-<div class="background">
-<style>
-   body {
-    background-image: url(/images/fon.jpg); 
-    background-attachment: fixed; 
-	color: #fff;
-   }
-  </style>
-
-<section>
-		<article>
-			<h2>Данный сайт создан для обучения студента Всеволода Тырыкина языку программирования PHP</h2>
-		</article>
-	</section>	
-
-</div>
+				<div class="information">
+				<h2>Краткая информация:</h2>
+				<p>*soon</p>
+				</div>
 </body>
 </html>
